@@ -8,8 +8,8 @@ ol li {
 .exam {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#table {
-    line-height:200%
+#table table tr {
+    
 }
 footer {
     padding-top: 3px;
@@ -25,4 +25,38 @@ a.foo:hover {
 a.foo {
   text-decoration-color: white;
   color: white;
+}
+
+.ASOIFASSAH {
+    border: 100px dotted #000;
+}
+
+.ASOIFASSAH tr td {
+
+    border: dashed red;
+    border-radius: 50%;
+    transform: rotate3d(0.45, 0.45, 0.15, 50deg);
+
+    font-size: 30px;
+    letter-spacing: 30px;
+    font-weight: black;
+    text-transform: uppercase;
+
+    transition: all .1s ease-out;
+    
+
+
+}
+
+.ASOIFASSAH tr :hover {
+
+    transform: scale3d(0.5, 1, 1.7);
+    background-color: BLUE;
+}
+
+.ASOIFASSAH {
+
+
+
+
 }
